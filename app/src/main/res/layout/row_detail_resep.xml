@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/linearRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/linearRowgroupfiftynine"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.44"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnGroupFiftyNine"
+                android:layout_width="@dimen/_42pxh"
+                android:layout_height="@dimen/_42pxh"
+                android:background="@drawable/rectangle_bg_white_a700_radius_8"
+                android:paddingHorizontal="@dimen/_5pxh"
+                android:paddingVertical="@dimen/_5pxv"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center"
+                android:src="@drawable/img_group59"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/txtOrangCounter"
+                style="@style/txtPoppinsmedium16_3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_16pxh"
+                android:layout_marginTop="@dimen/_11pxv"
+                android:layout_marginBottom="@dimen/_6pxv"
+                android:layout_weight="0.59"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/lbl_1_orang" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearRowgroupsixty"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_121pxh"
+            android:layout_weight="0.56"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnGroupSixty"
+                android:layout_width="@dimen/_42pxh"
+                android:layout_height="@dimen/_42pxh"
+                android:background="@drawable/rectangle_bg_white_a700_radius_8"
+                android:paddingHorizontal="@dimen/_5pxh"
+                android:paddingVertical="@dimen/_5pxv"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_group60"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/txtRiceCooker"
+                style="@style/txtPoppinsmedium16_3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_16pxh"
+                android:layout_marginTop="@dimen/_8pxv"
+                android:layout_marginBottom="@dimen/_9pxv"
+                android:layout_weight="0.7"
+                android:layout_gravity="center"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/lbl_rice_cooker" />
+        </LinearLayout>
+    </LinearLayout>
+</layout>

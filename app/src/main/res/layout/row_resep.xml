@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearColumnrectangletwentyfive"
+    style="@style/groupStylewhite_A700cornerRadius"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="start"
+    android:layout_marginEnd="10dp"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/frameStackrectangletwentyfive"
+        android:layout_width="@dimen/_136pxh"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="@dimen/_12pxh"
+        android:layout_marginTop="@dimen/_12pxv"
+        android:layout_marginEnd="@dimen/_12pxh">
+
+        <ImageView
+            android:id="@+id/imageRectangleTwentyFive"
+            android:layout_width="@dimen/_136pxh"
+            android:layout_height="@dimen/_92pxh"
+            android:layout_gravity="start"
+            android:scaleType="fitXY"
+            tools:ignore="ContentDescription"
+            android:src="@drawable/img_rectangle25_92x136" />
+
+        <LinearLayout
+            android:id="@+id/linearColumnicon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageIcon"
+                android:layout_width="@dimen/_20pxh"
+                android:layout_height="@dimen/_18pxh"
+                android:layout_gravity="end"
+                android:layout_marginStart="@dimen/_56pxh"
+                android:layout_marginEnd="@dimen/_8pxh"
+                android:scaleType="fitXY"
+                tools:ignore="ContentDescription"
+                android:src="@drawable/img_icon_white_a700_18x20" />
+
+            <TextView
+                android:id="@+id/txtGroupSeven"
+                style="@style/txtSolidRounded_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_30pxv"
+                android:ellipsize="end"
+                android:gravity="start"
+                android:paddingStart="@dimen/_11pxh"
+                android:paddingTop="@dimen/_4pxv"
+                android:paddingBottom="@dimen/_1pxv"
+                android:singleLine="true"
+                android:text="@string/lbl_tanpa_presto" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/linearRowvector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_12pxh"
+        android:layout_marginTop="@dimen/_4pxv"
+        android:layout_marginEnd="@dimen/_12pxh"
+        android:gravity="start"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageVector"
+            android:layout_width="@dimen/_11pxh"
+            android:layout_height="@dimen/_10pxh"
+            android:layout_marginTop="@dimen/_3pxv"
+            android:layout_marginBottom="@dimen/_3pxv"
+            android:scaleType="fitXY"
+            tools:ignore="ContentDescription"
+            android:src="@drawable/img_vector_yellow_700_10x11" />
+
+        <TextView
+            android:id="@+id/txt4912"
+            style="@style/txtPoppinsmedium12_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_4pxh"
+            android:layout_weight="0.79"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@string/lbl_4_9_12" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtRotiJalaMakL"
+        style="@style/txtPoppinsmedium12_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_12pxh"
+        android:layout_marginTop="@dimen/_4pxv"
+        android:layout_marginEnd="@dimen/_12pxh"
+        android:layout_marginBottom="@dimen/_11pxv"
+        android:text="@string/msg_roti_jala_mak_l" />
+</LinearLayout>

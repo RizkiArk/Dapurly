@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameResepTeruji"
+    android:layout_width="@dimen/_251pxh"
+    android:layout_marginEnd="@dimen/_15pxh"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imgvImage"
+        android:layout_width="@dimen/_251pxh"
+        android:layout_height="@dimen/_156pxh"
+        android:layout_gravity="start"
+        android:scaleType="fitXY"
+        tools:ignore="ContentDescription"
+        android:src="@drawable/img_rectangle26" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|start"
+        android:layout_marginEnd="@dimen/_10pxh"
+        android:layout_marginBottom="@dimen/_10pxv"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtGroupTwentySix"
+            style="@style/txtSolidRounded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_10pxh"
+            android:ellipsize="end"
+            android:gravity="start"
+            android:paddingStart="@dimen/_14pxh"
+            android:paddingTop="@dimen/_7pxv"
+            android:paddingEnd="@dimen/_14pxh"
+            android:paddingBottom="@dimen/_4pxv"
+            android:singleLine="true"
+            android:text="@string/lbl_menu_bulking" />
+
+        <TextView
+            android:id="@+id/txtNama"
+            style="@style/txtPoppinsregular10_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="@dimen/_10pxh"
+            android:layout_marginTop="@dimen/_46pxv"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@string/lbl_arnold_purnomo" />
+
+        <TextView
+            android:id="@+id/txtJenis"
+            style="@style/txtPoppinssemibold16_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10pxh"
+            android:layout_marginTop="@dimen/_1pxv"
+            android:text="@string/msg_olahan_ayam_kec" />
+    </LinearLayout>
+</FrameLayout>
